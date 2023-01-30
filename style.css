@@ -1,4 +1,30 @@
-img {
+img 
+{
     width: 100%;
-  }
+    
+}
+   
+*
+{
+  box-sizing: border-box;
+}
+
+h1
+{
+  text-align: center;
+}
+
+.container
+{
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+                           
+    
+}
+
+
+
+
   
